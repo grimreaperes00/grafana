@@ -1,0 +1,7 @@
+targets:
+  - address: 10.100.255.254  # SNMP IP
+    module: if_mib
+    version: 2c              # SNMP規則
+    auth:
+      community: csie        # SNMP name
+
